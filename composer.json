@@ -1,0 +1,17 @@
+{
+    "name": "salimova-17/comment-client",
+    "description": "A simple comment client",
+    "type": "composer-plugin",
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
