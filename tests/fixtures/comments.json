@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "some-comment",
+    "text": "some-comment-text"
+  },
+  {
+    "id": 2,
+    "name": "some-comment2",
+    "text": "some-comment-text2"
+  },
+  {
+    "id": 3,
+    "name": "some-comment3",
+    "text": "some-comment-text3"
+  }
+]
