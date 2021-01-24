@@ -113,7 +113,7 @@ class CommentClientTest extends TestCase
 
     public function testEditCommentExceptionHandled(): void
     {
-        $this->mockHandler->append(new RequestException('Error Communicating with Server', new Request('POST', 'test')));
+        $this->mockHandler->append(new RequestException('Error Communicating with Server', new Request('PUT', 'test')));
 
         $comment = $this->commentClient->editComment(1,'edited-comment', 'edited-comment-text');
 
