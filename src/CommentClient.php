@@ -26,7 +26,7 @@ class CommentClient
     }
 
     /**
-     * @return mixed|null
+     * @return mixed
      * @throws \JsonException
      */
     public function getComments(): mixed
@@ -46,7 +46,7 @@ class CommentClient
     /**
      * @param $name
      * @param $text
-     * @return mixed|null
+     * @return mixed
      * @throws \JsonException
      */
     public function addComment($name, $text): mixed
@@ -72,7 +72,7 @@ class CommentClient
      * @param $id
      * @param $name
      * @param $text
-     * @return mixed|null
+     * @return mixed
      * @throws \JsonException
      */
     public function editComment($id, $name, $text): mixed
